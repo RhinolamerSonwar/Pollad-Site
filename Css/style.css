@@ -18,20 +18,22 @@ body {
 } */
 
 .article {
-  width: 100%;
+  width: 80%;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
 }
 .wrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
 }
 .wrapper .static-txt {
   color: rgb(9, 2, 49);
   font-size: 60px;
   font-family: algerian;
+  margin-left: 30px;
+  align-items: center;
   font-weight: 400;
 }
 .wrapper .dynamic-txts {
@@ -383,6 +385,24 @@ footer {
     background: white;
     margin: 5px;
   }
+  .wrapper .static-txt {
+    color: rgb(9, 2, 49);
+    font-size: 60px;
+    font-family: algerian;
+    text-align: center;
+    margin-left: 5px;
+    font-weight: 400;
+  }
+  .dynamic-txts li {
+    list-style: none;
+    color: #fc6d6d;
+    font-size: 30px;
+    font-weight: 200;
+    position: relative;
+
+    top: 0;
+    animation: slide 10s steps(4) infinite;
+  }
 }
 @media screen and (max-width: 480px) {
   .service-box {
@@ -392,8 +412,9 @@ footer {
     color: rgb(9, 2, 49);
     font-size: 40px;
     font-family: algerian;
+    text-align: center;
     font-weight: 200;
-    margin-left: 5px;
+    margin-left: 20px;
   }
   .article {
     min-height: 80vh;
@@ -401,17 +422,15 @@ footer {
   .dynamic-txts li {
     list-style: none;
     color: #fc6d6d;
-    font-size: 40px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 200;
     position: relative;
+
     top: 0;
     animation: slide 10s steps(4) infinite;
   }
   .team-container .card .sci li a {
     color: #fff;
     font-size: 15px;
-  }
-  .article {
-    max-height: 80vh;
   }
 }
