@@ -10,6 +10,12 @@ body {
 
   background: url("wrap.jpg");
 }
+/* .article {
+  background: url("wrap.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
 
 .article {
   width: 100%;
@@ -17,7 +23,6 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #343f4f;
 }
 .wrapper {
   display: flex;
