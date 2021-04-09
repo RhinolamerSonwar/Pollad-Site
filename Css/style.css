@@ -407,4 +407,11 @@ footer {
     top: 0;
     animation: slide 10s steps(4) infinite;
   }
+  .team-container .card .sci li a {
+    color: #fff;
+    font-size: 15px;
+  }
+  .article {
+    max-height: 80vh;
+  }
 }
